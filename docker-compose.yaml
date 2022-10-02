@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  qrcode:
+    image: python:3.9.13
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    environment:
+      - TEXT=test
+      - FILE_NAME=test
+    command: "/bin/bash -c 'pip install qrcode[pil]==7.3.1 && python ./src/make_qrcode.py'"
+    tty: true
