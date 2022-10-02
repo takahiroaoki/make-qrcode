@@ -1,1 +1,1 @@
-# make-qrcode
+# qrcode-script
