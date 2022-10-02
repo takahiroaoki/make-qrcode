@@ -1,6 +1,6 @@
 # qrcode-script
 
-This repository could be used for converting word to QR code.
+This repository could be used for converting a word to QR code.
 
 ## Requirement
 
