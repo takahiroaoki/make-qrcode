@@ -13,4 +13,4 @@ This repository could be used for converting a word to QR code.
 ```
 $ docker-compose run --rm -e TEXT=text -e FILE_NAME=file_name qrcode
 ```
-2. Search the directory, "app/output" for the output png file.
+2. Search the directory, "app/output", for the output png file.
