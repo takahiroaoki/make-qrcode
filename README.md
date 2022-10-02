@@ -9,7 +9,7 @@ This repository could be used for converting a word to QR code.
 
 ## How to use
 
-1. Execute the following command, replacing the environment variables of TEXT and FILE_NAME with your own. TEXT is the word which would be converted to QR code, and FILE_NAME is the output name.
+1. Replacing the environment variables of TEXT and FILE_NAME with your own, execute the following command. TEXT is the word which would be converted to QR code, and FILE_NAME is the output name.
 ```
 $ docker-compose run --rm -e TEXT=text -e FILE_NAME=file_name qrcode
 ```
