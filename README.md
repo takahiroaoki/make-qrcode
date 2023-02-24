@@ -13,4 +13,8 @@ This repository could be used for converting a word to QR code.
 ```
 $ docker-compose run --rm -e TEXT="your text" -e FILE_NAME="your file name" qrcode
 ```
+
+Or, you can generate a QR code via Jenkins build.
+see the repository, [dev-base](https://github.com/takahiroaoki/dev-base).
+
 2. Search the directory, "app/output", for the output png file.
