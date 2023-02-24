@@ -3,7 +3,7 @@ import qrcode
 
 def make_qrcode(text, file_name):
     img = qrcode.make(text)
-    img.save("/app/output/{}.png".format(file_name))
+    img.save("./output/{}.png".format(file_name))
 
 if __name__ == "__main__":
     text = os.environ.get("TEXT", "")
