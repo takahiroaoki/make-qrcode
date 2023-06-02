@@ -15,6 +15,6 @@ $ docker-compose run --rm -e TEXT="your text" -e FILE_NAME="your file name" qrco
 ```
 
 Or, you can generate a QR code via Jenkins build.
-see the repository, [dev-base](https://github.com/takahiroaoki/dev-base).
+see the repository, [dev-tools](https://github.com/takahiroaoki/dev-tools).
 
 2. Search the directory, "app/output", for the output png file.
